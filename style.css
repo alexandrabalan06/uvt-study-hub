@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1, h2, h3{
+    color: darkblue; 
+}
+
+.skip-link{
+    position: absolute;
+    left: -999px;
+}
+
+.skip-link:focus{
+    left: 0; 
+    background-color: yellow;
+    color: black;
+}
+nav {
+    background-color: lightblue; 
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+nav a{
+      text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: darkblue;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    text-decoration: underline; 
+    color: rgb(164, 208, 255);
+}
+
+table, th, td {
+    border: 3px solid black;
+    
+}
+
+th {
+    background-color: rgb(165, 178, 235);
+}
+
+button {
+    margin-top:20px;
+    padding:10px 20px;
+    background-color:lightgray;
+    border:1px solid black;
+    cursor:pointer;
+}
+
+img {
+    max-width:100%; 
+    border-radius:8px;
+    margin-bottom:15px; 
+}
+
+.banner{
+   width: 100%;
+    
+}
+
+.rightpic{
+    float:right;
+    width:30%;
+    border-radius: 10px;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+    font-size: small;
+    color: gray;
+}
+
+#diffbutton{
+    background-color: rgb(203, 165, 9);
+}
